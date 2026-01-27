@@ -10,8 +10,16 @@ Pixiv Boothにて
 - ♡ 800+
 - 総DL数 700+
 
+#### 開発背景
+VRChat向けアバター改変において、表情やポーズシステムなど、あらゆるところでBlendshapeを含むアニメーションファイルの編集をすることになります。既存のツールでは一つ一つ手作業で登録する手法であり、私自身かなり不便を感じていました。無駄な作業時間や人的ミスを減らすためにこのツールを作成しました。30分かかる作業を3分で終わらせるために3時間かけて自分のために作成したツールですが、結果として多くの需要があり、たくさんの人の手助けになれたのではと感じています。
+
+#### 技術的なポイント
+- UnityEditorを用い、Unity内で操作が完結するようにしています。  
+- AnimationClip内のカーブのうち"Blendshape"を含むものをコピーすることで実現しています。  
+- 同一shapeキーに関しては、上書きのルールをユーザー側で選択し、ユーザーの意図しないデータ破損を防いでいます。
+
 #### 画像
-![テトリス](https://github.com/Ryoncy-Git/Portfolio/blob/main/Blendshape.png)
+![blendshape](https://github.com/Ryoncy-Git/Portfolio/blob/main/Blendshape.png)
 
 #### リンク
 [BoothのURLはこちら](https://ryoncy.booth.pm/items/7196296)
@@ -33,6 +41,10 @@ Pixiv Boothにて
 #### 画像
 ![テトリス](https://github.com/Ryoncy-Git/Portfolio/blob/main/4DTetris.png)
 
+#### 技術的なポイント
+- スクリプト内で四次元配列を用意し、処理した結果を三次元に丸めることで再現しています。
+- 四次元に拡張することにより複雑に増えた操作方法を、ある程度操作しやすいよう搾っています。
+
 #### リンク
 - [Unityroom](https://unityroom.com/games/4dtetris)にて投稿しています。
 - [GithubのURLはこちら](https://github.com/Ryoncy-Git/4DTetris)
@@ -46,6 +58,10 @@ Pixiv Boothにて
 
 #### 画像
 ![御御御付](https://github.com/Ryoncy-Git/Portfolio/blob/main/Omiotsuke.png)
+
+#### 制作意図
+意味のないくだらないものを全力で作ることも、創作においては大切な一面だと考えています。  
+自分の面白いと思ったことを表現できることが創作の良いところです。
 
 #### リンク
 [GithubのURLはこちら](https://github.com/Ryoncy-Git/OmiotsukeRoulette)
