@@ -16,6 +16,13 @@ Pixiv Boothにて
 #### リンク
 [BoothのURLはこちら](https://ryoncy.booth.pm/items/7196296)
 
+#### その他
+他にもBoothにて、VRChat向けのUnity拡張ツールや3Dモデルなどを配布しています。
+[ノーマルマップ生成ツール](https://ryoncy.booth.pm/items/7598727)  
+[ArmatureのTransformの情報を一括でコピーするツール](https://ryoncy.booth.pm/items/7384372)  
+[Armatureを命名しなおすツール](https://ryoncy.booth.pm/items/7218733)    
+[鳩ハット](https://ryoncy.booth.pm/items/6634736)  
+
 ---  
 
 ## 2.4Dテトリス
