@@ -16,7 +16,7 @@ VRChat向けアバター改変において、表情やポーズシステムな�
 #### 技術的なポイント
 - UnityEditorを用い、Unity内で操作が完結するようにしています。  
 - AnimationClip内のカーブのうち"Blendshape"を含むものをコピーすることで実現しています。  
-- 同一shapeキーに関しては、上書きのルールをユーザー側で選択し、ユーザーの意図しないデータ破損を防いでいます。
+- 同一シェイプキーに関しては、上書きのルールをユーザー側で選択し、ユーザーの意図しないデータ破損を防いでいます。
 
 #### 画像
 ![blendshape](https://github.com/Ryoncy-Git/Portfolio/blob/main/Blendshape.png)
