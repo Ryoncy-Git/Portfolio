@@ -36,7 +36,7 @@ VRChat向けアバター改変において、表情やポーズシステムな�
 ## 2.4Dテトリス
 #### 概要
 通常は二次元のテトリスを四次元まで拡張して再設計しました。   
-[DGolf](https://store.steampowered.com/app/2147950/4D_Golf/?l=japanese)というゲームから着想を得て、三次元までしか知覚できない制限の中で四次元構造をどう実装するかに重点を置いて制作しました。 
+[4DGolf](https://store.steampowered.com/app/2147950/4D_Golf/?l=japanese)というゲームから着想を得て、三次元までしか知覚できない制限の中で四次元構造をどう実装するかに重点を置いて制作しました。 
 
 #### 画像
 ![テトリス](https://github.com/Ryoncy-Git/Portfolio/blob/main/4DTetris.png)
